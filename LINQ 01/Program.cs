@@ -261,6 +261,11 @@ namespace LINQ_01
             //} 
             #endregion
 
+            //ListGenerator.ProductsList
+
+            //Console.WriteLine(ListGenerator.ProductsList[index: 0]);
+            //Console.WriteLine(ListGenerator.CustomersList[0]);
+
         }
     }
 }
