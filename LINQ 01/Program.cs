@@ -148,8 +148,36 @@ namespace LINQ_01
             //} 
             #endregion
 
+            #region LINQ
+            // LINQ: Language Integrated Query
+            //     : +40 Extesion methods (LINQ Operators) using Against Any Data [Data in Sequence) ,Reradtess Data Store
+            //     : 13 Category
+            //     : LINQ Operators Exits Class "Enumerable"
+
+            //Sequence: Object From Class Implement Interface "Enumerable"
+            // Local Sequence : L20, L2XML
+            // Remote Sequence : L2EF
+
+            //Input Sequence ==> LINQ Operator ==> Output Sequence
+            //Input Sequence ==> LINQ Operator ==> One Value
+            //               ==> LINQ Operator ==> Output Sequence
 
 
+            //List<int> Numbers = new List<int>() { 1, 2, 3, 4, 5, 6 };
+
+            //var Result = Enumerable.Where(Numbers, N => N % 2 == 0);
+
+            //var Result = Numbers.Where( N => N % 2 == 0);
+
+            //Numbers.Any();
+
+            //var Result = Enumerable.Range(start: 1, count: 100);
+
+            // foreach (var item in Result)
+            // {
+            //     Console.WriteLine(item);
+            // } 
+            #endregion
         }
     }
 }
