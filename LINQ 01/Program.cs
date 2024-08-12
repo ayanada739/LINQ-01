@@ -92,9 +92,24 @@ namespace LINQ_01
 
             #endregion
 
-             
 
+            #region Extension Methods
+            // Extension Methods
 
+            //int Number = 12345; //54321
+
+            // var Result = IntExtension.Reverse(Number);
+
+            // Console.WriteLine(Result);
+
+            // Number.Reverse();
+
+            //var Result = Number.Reverse();
+
+            //Number.Reverse();
+            //Console.WriteLine(Result);
+
+            #endregion
 
 
 
