@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using System.Linq;
+using System.Text;
 
 namespace LINQ_01
 {
@@ -226,6 +227,35 @@ namespace LINQ_01
 
 
             //foreach (var item in Result)
+            //{
+            //    Console.Write(item + "");
+            //} 
+            #endregion
+
+            #region LINQ Execution Ways
+            // LINQ Execution Ways
+            // 1. Differed Executeion Way : 10 Categories
+            // 2. Immidiate Executeion Way : 3 Categories [Elements Operators - Casting Operators- Aggregate Operators]
+
+            //List<int> Numbers = new List<int>() { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+
+            //var Result = Numbers.Where( N => N % 2 == 0); //Where Is Differed
+
+            //Numbers.AddRange(new int[] { 10, 11, 12 });
+
+            //foreach (var item in Result) //here
+            //{
+            //    Console.Write(item + "");
+            //}
+
+
+            //List<int> Numbers = new List<int>() { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+
+            //var Result = Numbers.Where(N => N % 2 == 0).ToList(); //Where Is Differed //here
+
+            //Numbers.AddRange(new int[] { 10, 11, 12 });
+
+            //foreach (var item in Result) //here
             //{
             //    Console.Write(item + "");
             //} 
