@@ -178,6 +178,59 @@ namespace LINQ_01
             //     Console.WriteLine(item);
             // } 
             #endregion
+
+            #region LINQ Syntax
+            // LINQ Syntax:
+
+            //1. Fluent Syntax
+            //use LINQ Methods
+            //1.1. LINQ Operator As Class Hember Methods Through Class "Enumerable"
+
+            //List<int> Numbers = new List<int>() { 9 , 8, 7 , 6 , 5 , 1, 2, 3, 4 };
+
+            //Where
+
+            // var Result =Enumerable.Where(Numbers, N => N % 2 == 0);
+
+
+
+            // 1.2. LINQ Operator As==> Extensions methods Through The Sequence [Recomnended]
+
+
+
+            //foreach (var item in Result)
+            //{
+            //    Console.Write(item + "");
+            //}
+
+
+
+
+
+            // 2. Query Syntax (Query Expression) Like SW Style
+            // start With from
+            // end nith select or group by
+            // Query Syntax easier than  Fluent [joins , group by ,let , into]
+
+            //List<int> Numbers = new List<int>() { 9 , 8, 7 , 6 , 5 , 1, 2, 3, 4 };
+
+            //var Result = from N in Numbers
+            //             where N % 2 == 0
+            //             select N;
+
+            ///*
+            // Select N 
+            //From Numbers
+            //where N % 2 == 0
+            //*/
+
+
+            //foreach (var item in Result)
+            //{
+            //    Console.Write(item + "");
+            //} 
+            #endregion
+
         }
     }
 }
