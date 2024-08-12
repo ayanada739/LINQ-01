@@ -111,6 +111,43 @@ namespace LINQ_01
 
             #endregion
 
+            #region Anonymous Type
+
+            //Anonymous Type
+
+            //Employee Emp01 = new Employee() { Id = l, Name = "ahmed", Salary = 12000 };
+
+            //var Emp01 = new { Id = 1, Name = "ahmed", Salary = 12000.0 };  // Anonyaous Type
+            //var Emp02 = new { Id = 1, Name = "ahmed", Salary = 12000.0 };  // var Emp01= new { Id=1, Name = 123, Salary = 12000.0};
+
+            //Emp01.1d = 12; // Invalid-Immutable Type- Can't Change Its value After Creation
+
+            //var Emp02 = Emp01 with { Id = 12};// New Feature C# 10.0
+
+            //console ,WriteLine(Emp01 .GetType().Name); //<>f_AnonymousType0'3
+            //ConsoIe ,WriteLine(Emp02. GetType().Name); //<>f_AnonymousType0'3
+
+            //Console.WriteLine(Emp01);
+            //Console.WriteLine(Emp02);
+
+
+            //The Same Anonymous As long as:
+            //1. The Property Naming [Case Sensitive]
+            //2. The Property Order
+            //3. The Property Datatype
+
+
+            //if (Emp01.Equals(Emp02)) //Compare Reference
+            //{
+            //    Console.WriteLine(value: "EQUALS");
+            //}
+            //else
+            //{
+            //    Console.WriteLine(value: "EQUALS");
+
+            //} 
+            #endregion
+
 
 
         }
